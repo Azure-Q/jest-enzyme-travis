@@ -5,9 +5,10 @@ cache:
   directories:
   - node_modules
 before_script:
+  - npm install --save-dev coveralls 
   - npm install --save-dev @babel/core 
   - npm install --save-dev enzyme
   - npm install --save-dev @babel/plugin-proposal-class-properties
   - npm install --save-dev jest babel-jest @babel/preset-env @babel/preset-react react-test-renderer
 script:
-  - npm run test # ÔËĞĞ×Ô¶¯²âÊÔ¿ò¼Ü
+  - npm run test # Ã”Ã‹ÃÃÃ—Ã”Â¶Â¯Â²Ã¢ÃŠÃ”Â¿Ã²Â¼Ãœ
